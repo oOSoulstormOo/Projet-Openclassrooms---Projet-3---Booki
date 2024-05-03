@@ -1,3 +1,37 @@
+/****** Header + Nav ********/
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 61px;
+    height: 19px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.nav-container {
+    padding-top: 15px;
+}
+
+.nav-link {
+    margin-left: 35px;
+    font-size: var(--text-info-size);
+    font-weight: var(--weight-normal);
+}
+
+.nav-link:hover {
+    color: var(--main-color);
+    border-top: solid 2px var(--main-color);
+    padding-top: 20px;
+}
+
+/****** Section found Hebergements + search form *********/
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

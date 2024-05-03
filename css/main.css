@@ -31,7 +31,7 @@
     /*** height ? ***/
     --text-height: normal;
 }
-
+    /*** icon ***/
 .fa-solid {
     color: var(--main-color);
 }
@@ -47,17 +47,18 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
-
+    /*** link ***/
 a {
     color: inherit;
     text-decoration: none;
 }
-
+    /*** Title ***/
+    /** h2 and 22px **/
 .section-title {
     margin: 0;
     font-size: var(--title-h-size);
 }
-
+    /*** all info for cards ***/
 .card {
     background-color: var(--card-color);
     border-radius: 20px;
