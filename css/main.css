@@ -14,6 +14,22 @@
     --filter-bg-color: #DEEBFF;
     --filter-border-color: #D9D9D9;
     --card-color: #FFFFFF;
+
+    /****** Text configuration *******/ 
+    /*** size ***/
+    --text-info-size: 16px;
+    --card-info-size: 14px;
+    --filters-info-size: 17px;
+    --title-h-size: 22px;
+    --subtitle-h-size: 16px;
+    --subtitle-size: 18px;
+
+    /*** weight ***/
+    --weight-normal: 400;
+    --weight-bold: 600;
+
+    /*** height ? ***/
+    --text-height: normal;
 }
 
 .fa-solid {
@@ -39,7 +55,7 @@ a {
 
 .section-title {
     margin: 0;
-    font-size: 22px;
+    font-size: var(--title-h-size);
 }
 
 .card {
@@ -54,7 +70,7 @@ a {
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: var(--subtitle-h-size);
 }
 
 .euro {
