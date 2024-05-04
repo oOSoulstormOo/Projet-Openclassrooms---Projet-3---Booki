@@ -97,6 +97,9 @@ a {
     font-size: var(--subtitle-h-size);
 }
 
+.card-subtitle {
+    font-size: var(--card-info-size);
+}
 .euro {
     font-weight: 700;
 }
