@@ -38,12 +38,22 @@
 }
 
 .section-search-title {
+    margin: 0;
+    margin-bottom: 10px;
     font-size: var(--title-h-size);
     font-weight: var(--weight-bold);
     line-height: normal; /*peut-être a changer par sa variable*/
 }
 
 .section-search-info {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: var(--text-info-size);
+    font-weight: var(--weight-normal);
+    line-height: normal;
+}
+
+.section-search-info-2 {
     font-size: var(--text-info-size);
     font-weight: var(--weight-normal);
     line-height: normal;
