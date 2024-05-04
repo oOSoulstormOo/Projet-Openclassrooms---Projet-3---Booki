@@ -31,6 +31,102 @@
 }
 
 /****** Section found Hebergements + search form *********/
+            /* title + info */
+.section-search {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-search-title {
+    font-size: var(--title-h-size);
+    font-weight: var(--weight-bold);
+    line-height: normal; /*peut-être a changer par sa variable*/
+}
+
+.section-search-info {
+    font-size: var(--text-info-size);
+    font-weight: var(--weight-normal);
+    line-height: normal;
+}
+            /* Form  (search + button) */
+.search-form {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--main-bg-color);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 380px;
+    align-items: center;
+    padding: 1px 0px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.text-field {
+    font-family: 'Raleway';
+    font-size: var(--subtitle-size);
+    font-weight: var(--weight-bold);
+    text-align: center;
+    border: none;
+    padding: 15px 0px;
+    margin: 0;
+    width: 195px;
+}
+
+.text-field:focus {              /** !!!! verifier que se soit accepter, enlève de l'accéssibilité !!!! **/
+    outline: none;
+}
+            /* Button search */
+.button-search {
+    margin-left: -2px;
+    font-family: 'Raleway';
+    color: var(--card-color);
+    font-size: var(--subtitle-size);
+    font-weight: var(--weight-bold);
+    background-color: var(--main-color);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    border: none;
+    padding: 16px 16px;
+}
+
+            /* Filter box*/
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.filter-subtitle {
+    font-size: var(--subtitle-size);
+    font-weight: var(--weight-bold);
+}
+
+            /* Button filter */
+.filter-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: auto;
+    background-color: var(--card-color);
+    border-color: var(--filter-border-color);
+    border-radius: 30px;
+}
+
+.button-title {
+    font-size: var(--filters-info-size);
+    font-weight: var(--weight-bold);
+    margin-left: 10px;
+    margin-right: 14px;
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {

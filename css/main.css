@@ -36,6 +36,22 @@
     color: var(--main-color);
 }
 
+.fa-location-dot {
+    color: black;
+    height: 18px;
+    width: 14px;
+    margin-right: 18px;
+    margin-left: 18px;
+}
+
+.fa-money-bill-wave,
+.fa-person,
+.fa-heart,
+.fa-fire {
+    margin-left: 14px;
+    font-size: 22px;
+}
+
 body {
     display: flex;
     justify-content: center;
