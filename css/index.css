@@ -126,8 +126,8 @@
     height: 50px;
     width: auto;
     background-color: var(--card-color);
-    border-color: var(--filter-border-color);
     border-radius: 30px;
+    border: 2px solid var(--filter-border-color);
 }
 
 .filter-buttons:hover {
