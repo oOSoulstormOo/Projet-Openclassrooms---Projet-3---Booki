@@ -152,6 +152,7 @@
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .hebergements-and-populaires section {
@@ -258,3 +259,38 @@
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
+/****** Section Activity *******/
+
+.activity {
+    padding: 30px;
+}
+
+.activity-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activity-location a {
+    width: 22%;
+}
+.activity-location .card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.activity-location img {
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activity-location .card-title {
+    margin-left: 15px;
+}
+
+/******** Footer ********/
