@@ -97,6 +97,10 @@ a {
     font-size: var(--subtitle-h-size);
 }
 
+.card-title-2 {
+    font-size: var(--subtitle-h-size);
+}
+
 .card-subtitle {
     font-size: var(--card-info-size);
 }
@@ -114,6 +118,8 @@ a {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    /***** Section hebergements *****/
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -143,6 +149,16 @@ a {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    /**** Section activity ****/
+    .activity-location img {
+        height: 200px;
+    }
+
+    .card-title-2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
