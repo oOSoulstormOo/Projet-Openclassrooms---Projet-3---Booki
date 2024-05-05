@@ -168,6 +168,7 @@
 }
 .hebergements-card a {
     width: 31%;
+    margin-top: 33px;
 }
 .hebergements-card {
     display: flex;
@@ -180,7 +181,7 @@
 .hebergements-card .card {  
     display: flex;
     flex-direction:column ;
-    margin-top: 33px;
+
 }
 
 .hebergements-card img {
@@ -274,13 +275,13 @@
 
 .activity-location a {
     width: 22%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .activity-location .card {
     display: flex;
     flex-direction: column;
     padding: 0;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 .activity-location img {
