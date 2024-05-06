@@ -97,10 +97,6 @@ a {
     font-size: var(--subtitle-h-size);
 }
 
-.card-title-2 {
-    font-size: var(--subtitle-h-size);
-}
-
 .card-subtitle {
     font-size: var(--card-info-size);
 }
@@ -154,11 +150,13 @@ a {
     /**** Section activity ****/
     .activity-location img {
         height: 200px;
+        min-height: 200px;
     }
 
-    .card-title-2 {
-        padding-top: 10px;
-        padding-bottom: 10px;
+    .activity-location .card-title {
+        display: flex;
+        height: 25%;
+        align-items: center;
     }
 }
 

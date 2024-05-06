@@ -27,7 +27,7 @@
 .nav-link:hover {
     color: var(--main-color);
     border-top: solid 2px var(--main-color);
-    padding-top: 20px;
+    padding-top: 22px;
 }
 
 /****** Section found Hebergements + search form *********/
@@ -83,6 +83,24 @@
     padding: 15px 0px;
     margin: 0;
     width: 195px;
+}
+
+.text-field::placeholder {
+    font-size: var(--subtitle-size);
+    font-weight: var(--weight-bold);
+    color: black;
+}
+
+.text-field::-webkit-input-placeholder {
+    font-size: var(--subtitle-size);
+    font-weight: var(--weight-bold);
+    color: black;
+}
+
+.text-field::-ms-input-placeholder {
+    font-size: var(--subtitle-size);
+    font-weight: var(--weight-bold);
+    color: black;
 }
 
 .text-field:focus {              /** !!!! verifier que se soit accepter, enlève de l'accéssibilité !!!! **/
@@ -179,7 +197,8 @@
 
 .hebergements-card .card {  
     display: flex;
-    flex-direction:column ;
+    flex-direction:column;
+    height: 100%;
 
 }
 
@@ -188,11 +207,17 @@
     height: 119px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    min-height: 119px;
 }
 
 .hebergements-card .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
     width: 100%;
     padding-left: 15px;
+    padding-right: 15px;
     box-sizing: border-box;
 }
 
@@ -281,20 +306,23 @@
     display: flex;
     flex-direction: column;
     padding: 0;
+    height: 100%;
+
 }
 
 .activity-location img {
     height: 380px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    min-height: 380px;
 }
 
 .activity-location .card-title {
     margin-left: 15px;
-}
-
-.activity-location .card-title-2 {
-    margin-left: 15px;
+    margin-right: 15px;
+    height: 12%;
+    display: flex;
+    align-items: center;
 }
 
 /******** Footer ********/
